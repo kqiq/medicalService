@@ -1,0 +1,7 @@
+1.The code is modular : devided into multiple modules for better maintainablity and also resusablity each handling specific concern .
+2.Oop design : classes are used to encapuslate related funcs.
+3.Configs and loggings : configs and logging are separated in their own modules.
+4.Db ops : database operations are encaupsulated in the database class , use dbm for low overhead : internal to the python itself.
+5.Llm service : The LLMService class handles interactions with the llm with the  help of tools
+6.Request handlers : the Handlers contains methods and properties for handling different api endpoints that will ultimatly wrapped by the socketify object
+7.fully robust and defensive code.
